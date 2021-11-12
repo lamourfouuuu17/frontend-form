@@ -1,0 +1,28 @@
+.input {
+  margin: 0 auto;
+  margin: 100px 500px;
+  &_last-name {
+    display: block;
+    margin-top: 15px;
+  }
+
+  &_email {
+    display: block;
+    margin-top: 15px;
+  }
+}
+
+.submit_btn {
+  display: block;
+  margin-top: 20px;
+}
+
+.add_btn {
+  display: block;
+  margin-top: 20px;
+}
+
+.select2 {
+  display: block;
+  margin: 20px 0;
+}
