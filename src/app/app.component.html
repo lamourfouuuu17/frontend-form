@@ -35,50 +35,6 @@
     </select>
   </div>
 
-  <!-- <div>
-    <mat-form-field appearance="fill">
-      <mat-label>Technology</mat-label>
-      <mat-select
-        [(ngModel)]="selectedTechnology"
-        (selectionChange)="onSelect($event)"
-      >
-        <mat-option *ngFor="let techs of dropdownList" [value]="techs.value">{{
-          techs.viewValue
-        }}</mat-option>
-      </mat-select>
-    </mat-form-field>
-    <p>Selected: {{ selectedTechnology }}</p>
-  </div>
-
-  <mat-form-field appearance="fill">
-    <mat-label>Version</mat-label>
-    <mat-select [(ngModel)]="selectedVers">
-      <mat-option *ngFor="let vers of versions" [value]="vers">
-        {{ vers }}
-      </mat-option>
-    </mat-select>
-  </mat-form-field> -->
-  <!-- 
-  <mat-form-field appearance="fill">
-    <mat-label>Version</mat-label>
-    <select
-      matNativeControl
-      formControlName="versions"
-      required
-      [disabled]="select1.valid"
-    >
-      <option value="angular">Angular</option>
-      <option value="react">React</option>
-      <option value="vue">Vue</option>
-    </select>
-  </mat-form-field> -->
-
-  <!-- <select formControlName="technologies" (change)="selectTech($event)">
-    <option *ngFor="let tech of technologies" [ngValue]="tech">
-      {{ tech }}
-    </option>
-  </select>
-   -->
   <mat-form-field appearance="fill">
     <mat-label>Email address</mat-label>
     <input matInput [formControl]="email" />
